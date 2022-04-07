@@ -110,5 +110,11 @@ namespace Lab03
             frmUsuarios usuarios = new frmUsuarios(conn);
             usuarios.Show();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Persona persona = new Persona(conn);
+            persona.Show();
+        }
     }
 }

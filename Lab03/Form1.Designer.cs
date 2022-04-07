@@ -42,6 +42,7 @@ namespace Lab03
             this.btnConectar = new System.Windows.Forms.Button();
             this.btnDesconectar = new System.Windows.Forms.Button();
             this.btnUsuarios = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -112,7 +113,7 @@ namespace Lab03
             this.txtBaseDatos.Name = "txtBaseDatos";
             this.txtBaseDatos.Size = new System.Drawing.Size(170, 22);
             this.txtBaseDatos.TabIndex = 2;
-            this.txtBaseDatos.Text = "db_lab03";
+            this.txtBaseDatos.Text = "School";
             // 
             // txtUsuario
             // 
@@ -181,12 +182,24 @@ namespace Lab03
             this.btnUsuarios.UseVisualStyleBackColor = true;
             this.btnUsuarios.Click += new System.EventHandler(this.btnUsuarios_Click);
             // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(279, 247);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(110, 27);
+            this.button1.TabIndex = 5;
+            this.button1.Text = "Persona";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLight;
             this.ClientSize = new System.Drawing.Size(437, 286);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.btnUsuarios);
             this.Controls.Add(this.btnConectar);
             this.Controls.Add(this.btnDesconectar);
@@ -223,6 +236,7 @@ namespace Lab03
         private System.Windows.Forms.Button btnConectar;
         private System.Windows.Forms.Button btnDesconectar;
         private System.Windows.Forms.Button btnUsuarios;
+        private System.Windows.Forms.Button button1;
     }
 }
 
