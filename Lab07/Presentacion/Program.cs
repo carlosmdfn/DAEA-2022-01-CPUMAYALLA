@@ -1,10 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Lab06
+namespace Presentacion
 {
     static class Program
     {
@@ -16,7 +13,7 @@ namespace Lab06
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new manPerson());
+            Application.Run(new Form1());
         }
     }
 }
